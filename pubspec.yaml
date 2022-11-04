@@ -1,0 +1,40 @@
+name: task
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  dio: ^4.0.6
+  shared_preferences: ^2.0.15
+  image_picker: ^0.8.6
+  file_picker: ^4.2.0
+  pull_to_refresh: ^2.0.0
+  flutter_conditional_rendering: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/home_back.png
+    - assets/images/login_back.png
+    - assets/images/logout.png
+    - assets/images/profile.png
+    - assets/images/upload.png
+    - assets/images/cam.png
+    - assets/images/pics.png
